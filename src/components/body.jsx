@@ -7,6 +7,7 @@ import Projects from "./body/projects"
 import Pointer from './body/pointer'
 import Aboutme from './body/aboutme'
 import Quotes from './body/qutes'
+import GihubCalender from './body/GihubCalender'
 
 const body = () => {
   return (
@@ -16,6 +17,7 @@ const body = () => {
       <Expertise/>
       <Carrer/>
       <Projects/>
+      <GihubCalender/>
       <Aboutme/>
       <Pointer/>
       <Quotes/>
