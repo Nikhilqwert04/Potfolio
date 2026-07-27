@@ -4,6 +4,9 @@ import Work from "./body/work"
 import Expertise from "./body/expertise"
 import Carrer from "./body/carrer"
 import Projects from "./body/projects"
+import Pointer from './body/pointer'
+import Aboutme from './body/aboutme'
+import Quotes from './body/qutes'
 
 const body = () => {
   return (
@@ -13,6 +16,9 @@ const body = () => {
       <Expertise/>
       <Carrer/>
       <Projects/>
+      <Aboutme/>
+      <Pointer/>
+      <Quotes/>
     </div>
   )
 }

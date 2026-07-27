@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Pirates";
-  src: url("./assets/fonts/MATURASC_1.TTF");
+  src: url("./assets/fonts/Ethnocentric-Regular.otf");
 }
 
 @font-face {
@@ -78,4 +78,5 @@ html {
 
 body{
   background-color:#111111 ;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
