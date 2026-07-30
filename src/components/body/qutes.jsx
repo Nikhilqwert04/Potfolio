@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const developerQuotes = [
   {
     quote:
-      "Programs must be written for people to read, and only incidentally for machines to execute.",
+      "Talk is cheap. Show me the code",
     author: "Harold Abelson",
   },
   {
@@ -20,7 +20,7 @@ const developerQuotes = [
     author: "Cory House",
   },
   { quote: "Fix the cause, not the symptom.", author: "Steve Maguire" },
-  { quote: "Simplicity is the soul of efficiency.", author: "Austin Freeman" },
+  { quote: "Clean code always looks like it was written by someone who cares.", author: "Austin Freeman" },
 ];
 
 const Quotes = () => {

@@ -37,10 +37,10 @@ const expertise = () => {
                     <img src="/nextjs.png" alt="CSS" class="bg-cover blur-xs"></img>
                 </div>
                 <div class="w-20 bg-[#1a1a1a] p-2 rounded-2xl border-[#676363] border cursor-pointer">
-                    <img src="/linux.png" alt="CSS" class="bg-cover blur-xs"></img>
+                    <img src="/linux.png" alt="CSS" class="bg-cover"></img>
                 </div>
                 <div class="w-20 bg-[#1a1a1a] p-2 rounded-2xl border-[#676363] border cursor-pointer">
-                    <img src="/monogo.png" alt="CSS" class="bg-cover blur-xs"></img>
+                    <img src="/monogo.png" alt="CSS" class="bg-cover"></img>
                 </div>
                 <div class="w-20 bg-[#1a1a1a] p-2 rounded-2xl border-[#676363] border cursor-pointer">
                     <img src="/socketio.png" alt="CSS" class="bg-cover blur-xs"></img>
