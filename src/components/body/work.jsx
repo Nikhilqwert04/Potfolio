@@ -1,6 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 const work = () => {
+  const [commitCount, setCommitCount] = useState(() => {
+    return localStorage.getItem('github_commit_count') || '95+';
+  });
+
+  useEffect(() => {
+    const fetchCommits = async () => {
+      try {
+        const response = await axios.get(
+          'https://api.github.com/search/commits?q=author:Nikhilqwert04',
+          {
+            headers: {
+              Accept: 'application/vnd.github+json',
+            },
+          }
+        );
+        const data = response.data;
+        if (data && typeof data.total_count === 'number') {
+          const count = data.total_count;
+          setCommitCount(count);
+          localStorage.setItem('github_commit_count', count.toString());
+        }
+      } catch (error) {
+        console.error('Error fetching GitHub commit count:', error);
+      }
+    };
+
+    fetchCommits();
+  }, []);
+
   return (
     <div>
 
@@ -99,7 +129,7 @@ const work = () => {
                         class="fa-solid fa-code-branch text-2xl text-[#666] group-hover:text-[#cfff45] transition-colors"></i>
                 </div>
                 <div class="mt-8">
-                    <h3 class="text-4xl font-bold text-white font-[Brotesk]">95+</h3>
+                    <h3 class="text-4xl font-bold text-white font-[Brotesk]">{commitCount}</h3>
                     <p class="text-[#777] text-sm mt-1 font-medium">GitHub Commits</p>
                 </div>
             </div>
