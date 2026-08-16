@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const work = () => {
+const Work = () => {
   const [commitCount, setCommitCount] = useState(() => {
     return localStorage.getItem('github_commit_count') || '95+';
   });
@@ -165,4 +165,4 @@ const work = () => {
   )
 }
 
-export default work
+export default Work

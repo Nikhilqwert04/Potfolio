@@ -3,7 +3,7 @@ import React from 'react'
 const herosection = () => {
   return (
     <div>
-      <hero id="UP">
+      <section id="UP">
         <div class="flex flex-wrap h-auto mt-22">
             <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw] relative">
                 <div
@@ -12,11 +12,11 @@ const herosection = () => {
                 </div>
                 <div
                     class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-16 top-16 animate-[float_4s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
-                    <img src="/lightning.png" alt="diamond" class=""></img>
+                    <img src="/lightning.png" alt="lightning icon" class=""></img>
                 </div>
                 <div
                     class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-11 bottom-30 animate-[float_3s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
-                    <img src="/web-development.png" alt="diamond" class=""></img>
+                    <img src="/web-development.png" alt="web development icon" class=""></img>
                 </div>
                 <div
                     class="h-16 w-55 bg-[#1a1a1a]/20 backdrop-blur-xl gap-3 border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 left-0 bottom-0 animate-[float_8s_ease-in-out_infinite] max-[530px]:h-[15vw] max-[530px]:w-[55vw] max-[500px]:p-[2vw]">
@@ -63,7 +63,7 @@ const herosection = () => {
                 </div>
             </div>
         </div>
-    </hero>
+    </section>
     </div>
   )
 }

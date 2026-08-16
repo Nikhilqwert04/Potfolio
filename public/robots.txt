@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikhilqwert04.github.io/Potfolio/sitemap.xml
