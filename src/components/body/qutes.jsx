@@ -37,7 +37,7 @@ const Quotes = () => {
         --Quote Of the Day
       </div>
       <div className="w-auto h-auto flex justify-center gap-10 flex-wrap text-2xl ">
-        <div className="bg-[#1a1a1a]/20 border-dashed border-[#6f6d6d] border-2 pb-20 px-4 pt-5 rounded-2xl text-stone-50 relative font-['Mine'] text-center">
+        <div className="bg-[#1a1a1a]/20 border-dashed border-[#6f6d6d] border-2 pb-20 px-4 pt-5 rounded-2xl text-stone-50 relative font-jakarta text-center">
           <p className="QuoteDay">
             {quoteData.quote ||
               "Mind your money and mood. Both can be ruined if not utilised wisely at the same time."}

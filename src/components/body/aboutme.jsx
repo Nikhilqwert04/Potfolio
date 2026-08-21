@@ -28,7 +28,7 @@ const aboutme = () => {
                 </div>
             </div>
             <div class="flex flex-col">
-                <p class="text-4xl font-extrabold font-['Mine'] text-white"><span class="text-[#cfff45]">Nikhil</span>
+                <p class="text-4xl font-extrabold font-outfit text-white"><span class="text-[#cfff45]">Nikhil</span>
                     Luthra</p>
                 <div class="max-w-110">
                     <p class="text-white mt-1">I'm a Frontend Developer focused on building responsive and engaging web
